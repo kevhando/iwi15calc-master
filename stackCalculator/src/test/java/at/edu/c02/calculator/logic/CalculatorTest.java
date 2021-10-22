@@ -94,5 +94,6 @@ public class CalculatorTest {
 		calc.push(2);
 		double result = calc.perform(Operation.mod);
 		assertEquals(1, result, 0);
+
 	}
 }
